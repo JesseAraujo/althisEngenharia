@@ -1,0 +1,649 @@
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                    STYLE RESPONSIVE
+                                                                        mobile    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+*/
+@media only screen and (max-width: 949px) {
+    /*
+--------------------------------------------------------------------
+CAROUSEL - index.php
+--------------------------------------------------------------------
+*/    
+    .carousel{
+        display: none;
+    }  
+    
+/*
+--------------------------------------------------------------------
+MAPA SITE
+--------------------------------------------------------------------
+*/  
+    .breadcrumb-item a{
+        text-decoration: none;
+        color: #345e8d;
+        text-align: center;
+    }      
+
+/*
+--------------------------------------------------------------------
+SUBTITULOS - index.php
+--------------------------------------------------------------------
+*/ 
+    label{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #345e8d;
+        font-family: Montserrat; 
+    }
+
+    .index{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: Montserrat;
+        line-height: 5px;
+        font-weight: bold;
+        color: #424242;    
+    }
+
+    .index::after{
+        content: "";
+        margin: 8px 0 20px;
+        margin-top: 20px;
+        height: 0;
+        display: block;
+        position: relative;
+        width: 60px;
+        border-bottom: 4px solid #de4217;
+    }
+
+/*
+--------------------------------------------------------------------
+TOPO
+--------------------------------------------------------------------
+*/
+    .top{
+        width: 100%;    
+        background-color: #ffffff;
+        border-bottom: 1px solid #f3f3f3;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.017);
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #424242;
+        text-align: center;
+    }
+
+    .top i{
+        margin-right: 8px;
+        margin-left: 10px;
+        color: #345e8d;
+    }
+
+/*
+--------------------------------------------------------------------
+NAV
+--------------------------------------------------------------------
+*/
+    /* ----------- Menu */
+    nav{     
+        padding-top: 10px;    
+        height: auto;     
+        font-family: Montserrat; 
+        position: relative;   
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    nav ul li{
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #ffffff;     
+    }
+
+    nav ul li a{
+        color: #424242;        
+    }
+
+/*
+--------------------------------------------------------------------
+CONTACT - index
+--------------------------------------------------------------------
+*/
+    .contat{
+        width: 100%;
+        height: auto;
+        /*background-size: cover;
+        background-image:url('../images/fundo.png');
+        background-repeat: no-repeat;*/
+        background-color: #345e8d;
+        font-family: Montserrat;
+        font-size: 15px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .contat button{
+        height: 50px;
+        width: 150px;
+        border: 2px solid #ffffff;
+        font-family: Montserrat;
+        font-size: 15px;
+        padding: 10px;
+        /*background-size: cover;
+        background-image:url('../images/fundo.png');
+        background-repeat: no-repeat;*/
+        background-color: #345e8d;
+        cursor: pointer;
+        color: #ffffff;
+        margin-top: 40px;
+    }
+
+    .contat button:hover{    
+        background-color: #ffffff;
+        /*color: #6666ff;*/
+        color: #345e8d;
+    }
+
+
+    .card-img-top{
+        width: 100%;
+        height: 130px;
+        padding: 0 12% 0 12%;
+    }
+
+    .card-title{
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: -15px;
+    }
+
+/*
+--------------------------------------------------------------------
+PARALAX - index
+--------------------------------------------------------------------
+*/
+    .paralax{
+        width: 100%;
+        height: 150px;
+        background-image:url('../images/fundo.png');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    .paralax p{
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: Montserrat;
+        padding-top: 60px;
+    }
+
+/*
+--------------------------------------------------------------------
+SISTEMA SOLAR - index
+--------------------------------------------------------------------
+*/
+    .solar{
+        width: 100%;
+        height: 400px;
+        background-image:url('../images/solar.jpg');
+        /*background-attachment: fixed;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .solar p{
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: Montserrat;
+        padding-top: 80px;
+    }
+
+/*
+--------------------------------------------------------------------
+PAINEL - usados nas páginas fora do index
+--------------------------------------------------------------------
+*/
+    /* ----------- background */
+    .painel{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-image:url('../images/painel.png');
+        background-repeat: no-repeat;
+        padding-top: 40px;
+        padding-bottom: 30px;        
+        text-align: justify;
+        font-family: Montserrat; 
+        color: #34465c;       
+    }
+
+    .painel2{
+        width: 100%;
+        height: auto;
+        /*background-size: cover;
+        background-image:url('../images/fundo.png');
+        background-repeat: no-repeat;*/
+        background-color: #315885;
+        padding-top: 40px;
+        padding-bottom: 30px;        
+        text-align: justify;
+        font-family: Montserrat; 
+        color: #ffffff;       
+    }
+
+    .painel3{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        /*background-image:url('../images/fundo.png');
+        background-repeat: no-repeat;*/
+        background-color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 30px;        
+        text-align: justify;
+        font-family: Montserrat; 
+        color: #191C24;       
+    }
+
+
+    /* ----------- títulos */
+    .title{
+        font-size: 25px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        color: #424242; 
+        margin-bottom: 30px;
+    }
+
+    .title::after{
+        content: "";
+        margin: 8px 0 20px;
+        height: 0;
+        display: block;
+        position: relative;
+        width: 60px;
+        border-bottom: 4px solid #de4217;
+    }
+
+    .title span{
+        font-size: 25px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        color: #345e8d; 
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    /* ----------- icones */    
+    .icone {
+        padding-left: 25px;
+        background: url(../images/icones/item.png) no-repeat left center;
+        text-decoration: none;
+        margin-bottom: 15px;
+        margin-left: -40px;
+    }
+
+    .icone-dark {
+        padding-left: 25px;
+        background: url(../images/icones/itemdark.png) no-repeat left center;
+        text-decoration: none;
+        margin-bottom: 15px;
+        margin-left: -40px;
+    }
+
+/*
+--------------------------------------------------------------------
+MISSÃO - VISÃO - VALORES
+--------------------------------------------------------------------
+*/    
+    .mvv{
+        font-family: Montserrat;
+        margin-top: 40px;   
+        margin-bottom: 80px; 
+        text-align: justify;            
+    }
+
+    .mvv .index{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: Montserrat;
+        line-height: 5px;
+        font-weight: bold;
+        color: #424242;   
+        margin-top: 40px;       
+    }
+
+    .mvv .index::after{
+        content: "";
+        margin: 8px 0 20px;
+        margin-top: 20px;
+        height: 0;
+        display: block;
+        position: relative;
+        width: 60px;
+        border-bottom: 4px solid #345e8d;
+        margin-bottom: 10px;
+    }
+
+/*
+--------------------------------------------------------------------
+SERVIÇOS
+--------------------------------------------------------------------
+*/
+    .althis{
+        width: 100%;
+        height: 500px;
+        background-image:url(../images/servicos.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: Montserrat;
+        text-transform: uppercase;
+    }
+
+/*
+--------------------------------------------------------------------
+PRODUTOS
+--------------------------------------------------------------------
+*/
+    .althisProdutos{
+        width: 100%;
+        height: 400px;
+        background-image:url(../images/produtos.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        font-family: Montserrat;
+        text-transform: uppercase;
+    }    
+
+    .titProduto{    
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin-top: 10px;
+        color: #345e8d;
+        font-weight: bold; 
+        font-size: 12px;
+    }  
+
+    .titProduto span{    
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin-top: 10px;
+        color: #424242;
+        font-weight: normal;
+    }  
+
+    /* ----------- títulos */ 
+    .painel2 .titlep{
+        font-size: 18px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        color: #ffffff; 
+        margin-bottom: 30px;
+    }
+
+    .painel2 .titlep::after{
+        content: "";
+        margin: 4px 0 20px;
+        height: 0;
+        display: block;
+        position: relative;
+        width: 60px;
+        border-bottom: 2px solid #de4217;
+    }
+
+    .painel3 .titlep2{
+        font-size: 18px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        color: #424242; 
+        margin-bottom: 30px;
+    }
+
+    .painel3 .titlep2::after{
+        content: "";
+        margin: 4px 0 20px;
+        height: 0;
+        display: block;
+        position: relative;
+        width: 60px;
+        border-bottom: 2px solid #de4217;
+    }
+
+    .painel3 .titlep2 b{
+        font-size: 20px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        color: #345e8d;       
+    }
+
+/*
+--------------------------------------------------------------------
+CONTATO
+--------------------------------------------------------------------
+*/
+    form{
+        padding: 0px;
+        font-family: Montserrat;
+    }
+
+    form input, textarea{
+        color: #424242;  
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    form .enviar{
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+        background-color: #345e8d;
+        padding: 10px;
+        width: 100%;
+        color: #ffffff;        
+        text-transform: uppercase;
+    }
+
+    form .enviar:hover{       
+        background-color: #424242;        
+    }
+
+/*
+--------------------------------------------------------------------
+MULTI CAROUSEL
+--------------------------------------------------------------------
+*/    
+
+    .mul{
+        display: none;
+    }
+    
+    .multicarouselp{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .MultiCarousel .btn{ 
+        font-family: Montserrat;
+        text-transform: uppercase; 
+        border: none;
+    }
+
+    .MultiCarousel{ 
+        float: left; 
+        overflow: hidden; 
+        padding: 15px; 
+        width: 100%; 
+        position:relative; 
+    }
+
+    .MultiCarousel .MultiCarousel-inner{ 
+        transition: 1s ease all;
+        float: left; 
+    }
+
+    .MultiCarousel .MultiCarousel-inner .item{ 
+        float: left;
+        position: relative;
+    }
+
+    .MultiCarousel .MultiCarousel-inner .item > div{ 
+        text-align: center; 
+        padding:10px;
+        margin:10px; 
+        background: #ffffff;
+        color:#666;
+    }
+
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst{ 
+        position:absolute; 
+        border-radius: 0;
+        height: 70px;        
+        top:calc(45% - 20px); 
+    }
+
+    .MultiCarousel .leftLst{ 
+        left:0; 
+        background-color: #345e8d;
+        border: none;
+        font-size: 12px;
+        padding: 10px;
+        opacity: .8;
+    }
+
+    .MultiCarousel .rightLst{ 
+        right:0; 
+        background-color: #345e8d;
+        border: none;
+        font-size: 12px;
+        padding: 10px;
+        opacity: .8;
+    }
+
+    .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over{ 
+        /*pointer-events: none; 
+        background:#ccc; 
+        border: none;*/
+        display: none;
+    }
+
+/*
+--------------------------------------------------------------------
+FOOTER
+--------------------------------------------------------------------
+*/
+    .footer{
+        width: 100%;
+        height: auto;
+        /*background-size: cover;
+        background-image:url('../images/fundo.png');
+        background-repeat: no-repeat;*/
+        background-color: #345e8d;
+        font-family: Montserrat;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .footer .subtitle{
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold; 
+        font-family: Montserrat;  
+        text-transform: uppercase;
+        padding-top: 80px;    
+    }
+    
+    /* ----------- social icon */
+    .social i{
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 35px;
+        padding-top: 30px;
+        padding-right: 5px;
+    }
+
+    .social i:hover{
+        color: #de4217;
+    }
+
+/*
+--------------------------------------------------------------------
+COPYRIGHT 
+--------------------------------------------------------------------
+*/ 
+    .copyright{
+        width: 100%;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #34465c;
+        font-family: Montserrat;
+        font-size: 12px;
+        text-align: center;        
+    }
+
+    .copyright label{
+        color: #34465c;
+        font-family: Montserrat;
+        font-size: 10px;
+    }
+
+    /* ----------- dev */
+    .copyright .dev{
+        font-size: 8px;        
+    }
+
+    .copyright a{
+        color: #34465c;
+        text-decoration: none;
+    }
+
+/*
+--------------------------------------------------------------------
+SETA - SUBIR TOPO
+--------------------------------------------------------------------
+*/   
+    #subirTopo {
+        text-decoration: none;
+        background: #161823;
+        bottom: 10px;
+        right: 10px;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        padding: 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+        position: fixed;
+        border: 0;
+        font-family: Montserrat;
+        opacity: .9;
+        border-radius: 50%;
+        width: 50px;
+        z-index: 999;
+    }
+
+    #subirTopo:hover {
+        opacity:1;
+    }    
+
+}
+
+
